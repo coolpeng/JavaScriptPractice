@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>JavaScript</title>
+	</head>
+	<body>
+		<p id="pid">这是一个段落</p>
+		<button type="button" onclick="changeContent()">点击我</button>
+		<script src="js/001 Output.js"></script>
+		<h5 id="hid"></h5>
+		<script>
+			document.getElementById("hid").innerHTML= "Edward Peng";
+		</script>
+		<script>
+			document.getElementById("hid").innerHTML= 15 * 10;
+		</script>	
+		<button type="button" onclick="sum(10, 30)">求和</button>
+		<script src="js/002 Grammar.js"></script>
+		
+		<!--JavaScript 操作符-->
+		<p id="computationId">操作符</p>
+		<button type="button" onclick="computationFun()">运算结果</button>
+		<script src="js/002 Grammar.js"></script>
+		<script src="js/004 DataType.js"></script>
+		<!--对象-->
+		<br />
+		<script src="js/005 Object.js"></script>
+	</body>
+</html>
