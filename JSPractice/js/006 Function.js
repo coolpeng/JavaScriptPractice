@@ -25,3 +25,6 @@ function myFunction(var1,var2)
 }
 
  * */
+function nameAndJobFun(name, job) {
+	alert("Welcome " + name + ", the " + job);
+}
